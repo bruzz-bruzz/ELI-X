@@ -1,5 +1,11 @@
 # ELI-X (Explain Like I'm X)
 
+[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=google&logoColor=white)](https://ai.google.dev/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=-H4ITjDqc5Y)
+[![Devpost](https://img.shields.io/badge/Devpost-003E54?style=flat&logo=devpost&logoColor=white)](https://devpost.com/software/eli-x-explain-like-i-m-x)
+
 [Link](https://vkpfkoosocw83vatqswyyz.streamlit.app/about)
 
 ELI-X is a web application designed to simplify complex topics by explaining them at various levels of complexity, from elementary school to PhD level. It is powered by Google's Gemini AI.
