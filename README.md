@@ -30,7 +30,7 @@ ELI-X is a web application designed to simplify complex topics by explaining the
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd ELI5
+   cd ELI-X
    ```
 
 2. Install the required dependencies:

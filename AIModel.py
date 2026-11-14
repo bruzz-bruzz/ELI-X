@@ -1,10 +1,9 @@
-from dotenv import load_dotenv, find_dotenv
+import streamlit as st
 from google import genai
 import random
 class AIModel():
     def __init__(self):
-        load_dotenv(find_dotenv())
-        self.client = genai.Client()
+        self.client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
         self.examplePrompts = [
             "Explain black holes",
             "How do airplanes fly?",
