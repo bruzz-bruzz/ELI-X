@@ -1,5 +1,7 @@
 # ELI-X (Explain Like I'm X)
 
+[Link](https://vkpfkoosocw83vatqswyyz.streamlit.app/about)
+
 ELI-X is a web application designed to simplify complex topics by explaining them at various levels of complexity, from elementary school to PhD level. It is powered by Google's Gemini AI.
 
 ## Table of Contents
