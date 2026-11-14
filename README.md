@@ -6,11 +6,12 @@
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=-H4ITjDqc5Y)
 [![Devpost](https://img.shields.io/badge/Devpost-003E54?style=flat&logo=devpost&logoColor=white)](https://devpost.com/software/eli-x-explain-like-i-m-x)
 
-[Link](https://vkpfkoosocw83vatqswyyz.streamlit.app/about)
+### [🚀 Live Demo](https://vkpfkoosocw83vatqswyyz.streamlit.app/about)
 
 ELI-X is a web application designed to simplify complex topics by explaining them at various levels of complexity, from elementary school to PhD level. It is powered by Google's Gemini AI.
 
 ## Table of Contents
+- [Hackathon Project Story](HACKATHON_ABOUT.md)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
@@ -22,12 +23,11 @@ ELI-X is a web application designed to simplify complex topics by explaining the
 ## Features
 - **Adjustable Complexity:** Choose from multiple levels of explanation (Elementary School to PhD).
 - **Interactive Interface:** Easy-to-use input form with dynamic suggestions.
-- **Powered by AI:** Leverages the latest Gemini AI models for accurate and clear explanations.
+- **Powered by AI:** Leverages Gemini AI models for accurate and clear explanations.
 
 ## Technologies Used
 - [Streamlit](https://streamlit.io/): For building the interactive web interface.
 - [Google Gemini API](https://ai.google.dev/): For generating intelligent explanations.
-- [Python-dotenv](https://github.com/theskumar/python-dotenv): For managing environment variables.
 
 ## Prerequisites
 - Python 3.9 or higher
@@ -37,7 +37,7 @@ ELI-X is a web application designed to simplify complex topics by explaining the
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bruzz-bruzz/ELI-X.git
    cd ELI-X
    ```
 
@@ -51,7 +51,7 @@ ELI-X is a web application designed to simplify complex topics by explaining the
 Create a `.env` file in the root directory and add your Google Gemini API Key:
 
 ```env
-GOOGLE_API_KEY=your_actual_api_key_here
+GEMINI_API_KEY=your_actual_api_key_here
 ```
 
 ## Usage
@@ -71,6 +71,10 @@ This will launch the application in your default web browser, usually at `http:/
 - `about.py`: The 'About' page content.
 - `requirements.txt`: Project dependencies.
 - `.env`: Environment variables (API Key).
+
+
+## License
+This project is licensed under the MIT License.
 
 ---
 Made by [bruzz-bruzz](https://github.com/bruzz-bruzz)
